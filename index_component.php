@@ -7,7 +7,7 @@ function hotels($hid,$hotel_name,$hotel_image){
 <button type=\"submit\" name=\"add\"class=\"hotel\">
 
      <div class=\"products\">
-        <img src=\"$hotel_image.jpg\">
+        <img src=\"$hotelimage.jpg\">
         <div class=\"content\">
       <h2>$hotel_name</h2>
         </div>

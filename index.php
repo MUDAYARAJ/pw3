@@ -45,18 +45,19 @@ $database=new createDb("hotel_list","hotels");
             <li><button id="closeBtn" onclick="closeSide()">X Close</button></li>
             <li><a href="about.html">ABOUT</a></li>
             <li><a href="contact1.html">CONTACT</a></li>
-            <li><a href="./cart_page.html">CART</a></li>
+            <li><a href="./cart_page.php">CART</a></li>
         </ul>
     </div>
     <div class="topcontent" id="topC">
         <div class="w3-container bar" id="Bar" width="100%">
 
             <img src="./photos/download__1_-removebg-preview.png" class="avo-icon" width="70" style="float: left;">
-            <a href="./index.html">
+            <a href="./index.php">
                 <h1 class="avo-title">BMS EATS</h1>
             </a>
             <ul class="topnav">
-                <li> <a href="account.html"><i class="material-icons w3-text-white">person</i></a></li>
+                <li> <a href="login.php"><i class="material-icons w3-text-white"><span
+                                class="material-icons">power_settings_new</span></i></a></li>
                 <a href="cart_page.php"><i style="float: right;color: white;padding: 14px;"
                         class="material-icons">shopping_cart</i></a>
 
@@ -68,7 +69,7 @@ $database=new createDb("hotel_list","hotels");
             <button class="menuIcon" id="menuBtn" onclick="openSide()"><i style="color: white;padding: 14px;"
                     class="material-icons">menu</i></button>
         </div>
-        <a href="./index.html">
+        <a href="./index.php">
             <h1 class="w3-text-white text-content w3-animate-left">BMS COLLEGE OF ENGINEERING</h1>
             <h5 class="w3-text-white w3-animate-left desc">BMS EATS</h5>
         </a>

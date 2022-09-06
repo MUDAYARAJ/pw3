@@ -3,6 +3,7 @@ session_start();
 require_once('ckDb.php');
 require_once('cart_page_component.php');
 $db=new createDb("hotel_list","products");
+
 $total = 0;
 $ototal=0;
 

@@ -68,6 +68,7 @@
                 display: block;
             }
         }
+        
         .topnav {
             list-style-type: none;
             margin: 0;
@@ -160,37 +161,36 @@
             padding: 10px;
         }
         
-@media screen and (max-width: 833px) {
-    .main-title {
-        margin-right: 0px;
-    }
-    .menuIcon {
-        display: block;
-    }
-    .menuIcon:hover {
-        cursor: pointer;
-    }
-    .mySlides {
-        width: 100%
-    }
-    .topnav {
-        display: none;
-    }
-    .topnav a.icon {
-        float: right;
-        display: block;
-    }
-}
-
-@media screen and (max-width: 445px) {
-    .avo-title {
-        font-size: 18px;
-    }
-    .avo-icon {
-        width: 50px
-    }
-}
+        @media screen and (max-width: 833px) {
+            .main-title {
+                margin-right: 0px;
+            }
+            .menuIcon {
+                display: block;
+            }
+            .menuIcon:hover {
+                cursor: pointer;
+            }
+            .mySlides {
+                width: 100%
+            }
+            .topnav {
+                display: none;
+            }
+            .topnav a.icon {
+                float: right;
+                display: block;
+            }
+        }
         
+        @media screen and (max-width: 445px) {
+            .avo-title {
+                font-size: 18px;
+            }
+            .avo-icon {
+                width: 50px
+            }
+        }
     </style>
 </head>
 
@@ -200,7 +200,7 @@
             <li><button id="closeBtn" onclick="closeSide()">X Close</button></li>
             <li><a href="about.html">ABOUT</a></li>
             <li><a href="contact1.html">CONTACT</a></li>
-            <li><a href="./cart_page.html">CART</a></li>
+            <li><a href="./cart_page.php">CART</a></li>
 
         </ul>
     </div>
@@ -208,7 +208,7 @@
         <div class="w3-container w3-white" id="Bar" width="100%">
 
             <img src="./photos/download (1).jpg" class="avo-icon" width="70" style="float: left;">
-            <a href="./index.html">
+            <a href="./index.php">
                 <h1 class="avo-title" style="float: left; color:black;">BMS EATS -
                     <H1 class="hotel_name">CONTACT</H1>
                 </h1>
@@ -225,7 +225,7 @@
                     class="material-icons">menu</i></button>
         </div>
     </div>
-  
+
 
     <div class="about-section">
         <h1>CONTACT INFO</h1>
@@ -273,10 +273,11 @@
         function openSide() {
             sideBar.style.display = "block";
         }
-        
+
         function closeSide() {
             sideBar.style.display = "none";
         }
     </script>
 </body>
+
 </html>

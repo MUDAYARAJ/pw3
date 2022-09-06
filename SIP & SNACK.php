@@ -19,7 +19,7 @@ $database=new createDb("hotel_list","products");
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KAAPI KUTEERA</title>
+    <title>SIP & SNACK</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="ck.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -57,7 +57,7 @@ $database=new createDb("hotel_list","products");
             <img src="./photos/download (1).jpg" class="avo-icon" width="70" style="float: left;">
             <a href="./index.php">
                 <h1 class="avo-title" style="float: left; color:black;">BMS EATS -
-                    <H1 class="hotel_name">KAAPI KUTEERA</H1>
+                    <H1 class="hotel_name">SIP & SNACK</H1>
                 </h1>
             </a>
             <ul class="topnav">

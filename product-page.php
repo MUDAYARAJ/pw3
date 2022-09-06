@@ -38,13 +38,14 @@ $database=new createDb("hotel_list","products");
 
             <img src="./photos/download (1).jpg" class="avo-icon" width="70" style="float: left;">
             <a href="./index.php">
-                <h1 class="avo-title" style="float: left; color:black;">BMS EATS -
-                    <H1 class="hotel_name">VIDYARTHI KHAANA</H1>
+                <h1 class="avo-title" style="float: left; color:black;">BMS EATS
+
+                    <H1 class="hotel_name"></H1>
                 </h1>
             </a>
             <ul class="topnav">
 
-                <a href="cart_page.html"><i style="float: right;color:black;padding: 14px;"
+                <a href="cart_page.php"><i style="float: right;color:black;padding: 14px;"
                         class="material-icons">shopping_cart</i></a>
                 <li style="float: right;"><a href="./about.html">ABOUT</a></li>
                 <li style="float: right;"><a href="contact1.html">CONTACT</a></li>

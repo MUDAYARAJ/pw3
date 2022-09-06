@@ -1,10 +1,13 @@
 <!doctype html>
 <html lang="en">
 <?php
+error_reporting(E_ERROR | E_PARSE);
 session_start();
-if(empty($_SESSION['username']))
-{header('location:login.php');
+if($_SESSION['username'])
+{
+    unset($_SESSION["username"]);
 }
+
 ?>
 
 <head>
